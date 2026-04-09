@@ -6,7 +6,7 @@ import io.github.some_example_name.entities.Paddle;
 import io.github.some_example_name.entities.Puck;
 
 public class AiController {
-    private static final float MAX_SPEED     = 3.5f;  // velocidad máxima de la IA
+    private static final float MAX_SPEED     = 2.5f;  // velocidad máxima de la IA
     private static final float DEFENSE_X     = 0f;    // se calcula en update como centro
     private static final float ATTACK_THRESHOLD = 0.5f; // margen para considerar "en posición"
 

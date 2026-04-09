@@ -18,6 +18,7 @@ public class PlayerInputHandler extends InputAdapter {
         this.paddle      = paddle;
         this.camera      = camera;
         this.worldHeight = worldHeight;
+
     }
 
     @Override
